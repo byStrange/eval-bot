@@ -12,7 +12,7 @@ bot.on('text', function (msg) {
     let console = {
         log(s) {
                 msg.reply.text(
-                    s.toString()
+                    `${s}`
                 )
         }
     }
@@ -22,10 +22,9 @@ function evaluvate(text)  {
     }
     catch (err) {
         msg.reply.text(err.toString())
-        c.log(err)
     }
 }
-        console.log(evaluvate(msg.text).toString())
+        console.log(evaluvate(msg.text))
 });
 
 bot.start();
