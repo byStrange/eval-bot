@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "telebot": "^0.0.5"
-  }
+  },
   "author": "strange",
   "license": "ISC"
 }
