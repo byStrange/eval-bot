@@ -2,7 +2,7 @@
 
 const TeleBot = require('telebot');
 // Please Use your API TOKEN
-const TOKEN = "5090565444:AAFIGedwFbYvb7djQmgf_cinwKyXZsBsFcw";
+const TOKEN = "5084415268:AAF07r-9pYvTtQJZ086BOr2r5iZxb8dG5q4";
 const bot = new TeleBot(TOKEN);
 
 
